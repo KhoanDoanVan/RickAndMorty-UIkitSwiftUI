@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		466CDE582C496D4E00E51646 /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466CDE572C496D4E00E51646 /* CharacterListViewViewModel.swift */; };
+		466CDE5C2C4972E500E51646 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466CDE5B2C4972E500E51646 /* CharacterListView.swift */; };
+		466CDE5E2C497C8100E51646 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466CDE5D2C497C8100E51646 /* Extension.swift */; };
 		467439B42C456E59000F37FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467439B32C456E59000F37FE /* AppDelegate.swift */; };
 		467439B62C456E59000F37FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467439B52C456E59000F37FE /* SceneDelegate.swift */; };
 		467439B82C456E59000F37FE /* RMTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467439B72C456E59000F37FE /* RMTabViewController.swift */; };
@@ -30,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		466CDE572C496D4E00E51646 /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		466CDE5B2C4972E500E51646 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		466CDE5D2C497C8100E51646 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		467439B02C456E59000F37FE /* IOS-RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-RickAndMorty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467439B32C456E59000F37FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467439B52C456E59000F37FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 		467439C92C4571BB000F37FE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				466CDE5B2C4972E500E51646 /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +130,7 @@
 		467439CA2C4571C1000F37FE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				466CDE572C496D4E00E51646 /* CharacterListViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 				467439B52C456E59000F37FE /* SceneDelegate.swift */,
 				467439BC2C456E5B000F37FE /* Assets.xcassets */,
 				467439BE2C456E5B000F37FE /* LaunchScreen.storyboard */,
+				466CDE5D2C497C8100E51646 /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -267,6 +276,8 @@
 				467439D82C457396000F37FE /* RMLocationViewController.swift in Sources */,
 				467439B82C456E59000F37FE /* RMTabViewController.swift in Sources */,
 				467439E22C46AF19000F37FE /* RMEpisode.swift in Sources */,
+				466CDE5C2C4972E500E51646 /* CharacterListView.swift in Sources */,
+				466CDE5E2C497C8100E51646 /* Extension.swift in Sources */,
 				467439DA2C4573C7000F37FE /* RMEpisodeViewController.swift in Sources */,
 				467439DE2C46AEFF000F37FE /* RMLocation.swift in Sources */,
 				467439B42C456E59000F37FE /* AppDelegate.swift in Sources */,
@@ -276,6 +287,7 @@
 				467439E82C46B26D000F37FE /* RMEndpoint.swift in Sources */,
 				467439DC2C4573E9000F37FE /* RMSettingsViewController.swift in Sources */,
 				467439E62C46B1CD000F37FE /* RMRequest.swift in Sources */,
+				466CDE582C496D4E00E51646 /* CharacterListViewViewModel.swift in Sources */,
 				467439D62C45736A000F37FE /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
