@@ -46,6 +46,8 @@ final class RMCharacterListView: UIView {
         /// Progressive animate rotate
         spinner.startAnimating()
         
+        viewModel.delegate = self
+        
         viewModel.fetchCharacters()
         
         setUpCollectionView()
